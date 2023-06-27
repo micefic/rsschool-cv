@@ -12,10 +12,10 @@ GitHub
 ### Experience
 Apart from Python-related training tasks, I have no relevant frontend experience. I am a beginner, eager to fulfil myself.
 ### Education
-**2019-2023**
+* **2019-2023**
 National Research University Higher School of Economics 
 Fundamental and Applied Linguistics
-**2023**
+* **2023**
 The Rolling Scopes School (stage #0)
 ### Languages:
 * Russian (C2)
