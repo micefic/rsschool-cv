@@ -1,5 +1,5 @@
 ## **Alexandra Vyahireva**
-* micefic@gmail.com
+### * micefic@gmail.com
 * tg: @micefic
 ### About me
 I always wanted to tie my life to languages, so I completed my linguistic studies at the HSE. There I learned about a very up-and-coming language: the programming language _*Python*_. After studying it for two years, I realised that **it wasn't the way to go**. 
@@ -9,7 +9,7 @@ HTML
 CSS
 Python
 GitHub
-### Experience
+### Expirience
 Apart from Python-related training tasks, I have no relevant frontend experience. I am a beginner, eager to fulfil myself.
 ### Education
 **2019-2023**
