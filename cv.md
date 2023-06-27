@@ -1,4 +1,3 @@
-![Мое фото]("D:\Downloads\kP5K0e7OYSQ.jpg")
 ## **Alexandra Vyahireva**
 * micefic@gmail.com
 * tg: @micefic
