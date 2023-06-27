@@ -1,7 +1,7 @@
 ## **Alexandra Vyahireva**
 * micefic@gmail.com
 * tg: @micefic
-* 
+* discord: micefic
 ### About me
 I want to change my development vector and grow from a qualified linguist to an in-demand frontend specialist. I have a passion for building different websites, a great understanding of the importance of user experience and a desire to learn a new profession.
 ### Skills
