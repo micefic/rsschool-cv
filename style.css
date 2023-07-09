@@ -1,0 +1,141 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 34px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 70px;
+}
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+}
+.nav-list {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+.nav-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+.nav-item a:hover {
+    color: #6d3e3e;
+  }
+
+.nav-link {
+    position: relative;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #b1c1b4;
+  }
+
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.section-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #829985;
+}
+
+.main-title {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #829985;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    margin-top: 20px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item span {
+    color: #49684e;
+}
+.section-item a {
+    text-decoration: none;
+    color: #49684e;
+}
+
+.pre {
+    font-size: 16px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
