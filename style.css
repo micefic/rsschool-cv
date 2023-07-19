@@ -38,6 +38,7 @@ html {
     display: flex;
     align-items: center;
     list-style: none;
+    margin: auto;
   }
 .nav-item a {
     color: #829985;
@@ -55,6 +56,7 @@ html {
     font-size: 15px;
     font-weight: 300;
     line-height: 50px;
+    margin: auto;
   }
   .section-profile {
     display: flex;
@@ -72,6 +74,7 @@ html {
     text-align: center;
     text-transform: uppercase;
 }
+
 .section-profile-logo {
     width: 200px;
     height: 200px;
