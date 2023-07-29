@@ -1,7 +1,7 @@
 body {
-    min-height: 100%;
-    min-width: 100%;
-    display: block;
+    min-height: auto;
+    min-width: 1440px;
+    display: flexbox;
     margin: 0;
     padding: 0;
     font-family: 'Forum', sans-serif;
@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 1440px;
     height: 90px;
     background: #0C0C0E;
 }
@@ -25,6 +25,7 @@ body {
     line-height: 50px; /* 166.667% */
     letter-spacing: 0.6px;
     margin-left: 20px;
+    margin-top: 16px;
 }
 
 .nav-container {
@@ -38,6 +39,8 @@ body {
     align-items: center;
     gap: 30px;
     list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 .nav-item {
@@ -70,8 +73,50 @@ body {
     flex-shrink: 0;
 }
 
-.welcome-section img {
-    display: flex;
+.welcome-image {
+    position: relative;
+    width: 1440px;
+    height: 600px;
+}
+
+.welcome-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 50%, transparent 50%);
+}
+
+.welcome-block {
+    position: absolute;
+    display: flex;
+    width: 520px;
+    height: 150px;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    bottom: 160px;
+    left: 0px;
+    background: #0C0C0E;
+}
+
+.welcome-title {
+    position: absolute;
+    display: flex;
+    flex-wrap: inherit;
+    width: 520px;
+    height: 150px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;  
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
