@@ -1,10 +1,10 @@
 body {
-    min-height: auto;
+    min-height: 100vh;
     min-width: 1440px;
     display: flexbox;
     margin: 0;
     padding: 0;
-    font-family: 'Forum', sans-serif;
+    
 }
 
 .header {
@@ -39,7 +39,7 @@ body {
     align-items: center;
     gap: 30px;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 14px;
     margin-bottom: 20px;
   }
 
@@ -49,7 +49,7 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px; /* 250% */
+    line-height: 50px;
 }
 
 .nav-link {
@@ -108,7 +108,7 @@ body {
     display: flex;
     flex-wrap: inherit;
     width: 520px;
-    height: 150px;
+    height: 157px;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -119,4 +119,59 @@ body {
     line-height: 50px;  
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+.about {
+    width: 1440px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.about-title {
+    width: 106px;
+    height: 61px;
+    flex-shrink: 0;
+    margin-top: -15px;
+}
+
+.about-title::after {
+    content: ''; 
+    position: absolute;
+    display: block; 
+    width: 50px;
+    height: 1px;
+    background-color: black; 
+    top: 768px;
+    left: 700px;
+  }
+
+.text-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.about-content {
+    width: 1440px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 52px;
+}
+
+.text-content {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
 }
